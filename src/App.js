@@ -1,5 +1,5 @@
 import React from 'react';
-import List from './list.js';
+import List from './List.js';
 
 
 function App(props) {
