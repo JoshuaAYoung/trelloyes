@@ -14,6 +14,7 @@ export default function List(props) {
             <Card
               title={card.title}
               content={card.content}
+              key={card.id}
             />
           )}
           <button

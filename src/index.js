@@ -4,4 +4,6 @@ import App from './App';
 import './index.css';
 import STORE from './store.js'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const AppFull = App(STORE);
+
+ReactDOM.render(<AppFull />, document.getElementById('root'));

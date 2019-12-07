@@ -1,17 +1,22 @@
 import React from 'react';
-import Card from 'card';
-import List from 'list';
+import List from './list.js';
 
 
 function App(props) {
-  const listItem = STORE.lists.map(List);
   return (
     <main class="App">
       <header class="App-header">
         <h1>Trelloyes!</h1>
       </header>
       <div class="App-list">
-        
+        {console.log(props.lists)}
+        {props.lists.map((list) =>
+            <List
+            header={list.header}
+            cards={list.cards}
+            key={list.id}
+          />
+        )}
       </div>
     </main>
   );
