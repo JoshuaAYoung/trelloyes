@@ -23,3 +23,30 @@ exports[` 1`] = `
   </div>
 </section>
 `;
+<<<<<<< HEAD
+=======
+
+exports[`List component renders the list as expected 1`] = `
+<section
+  className="List"
+>
+  <header
+    className="List-head"
+  >
+    <h2>
+      testHeader
+    </h2>
+  </header>
+  <div
+    className="List-Cards"
+  >
+    <button
+      className="List-add-button"
+      type="button"
+    >
+      + Add Random Card
+    </button>
+  </div>
+</section>
+`;
+>>>>>>> 22f4bf04c2d6866c128ef311050595e0a56f083c
